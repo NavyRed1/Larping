@@ -1,5 +1,5 @@
 // Framework-agnostic store: getState / subscribe (same contract React's useSyncExternalStore expects).
-// The React hook binding is added with the UI in Slice 3. No runtime dependencies.
+// The React hook binding is added with the UI in Slice 3. No runtime dependencies
 import type { Id } from "../curriculum/types.ts";
 import type { CurriculumIndex } from "../curriculum/index.ts";
 import * as A from "./actions.ts";
